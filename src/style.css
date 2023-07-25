@@ -849,3 +849,34 @@ button:focus {
     border-color: #000;
   }
 }
+
+.certificate-icons {
+  font-size: 4.5em !important;
+  margin: 20px !important;
+  padding: 5px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
+
+@media (max-width: 767px) {
+  .certificate-icons {
+    margin: 10px !important;
+  }
+}
+
+.certificate-icons:hover {
+  transform: scale(2.5) !important;
+  overflow: hidden !important;
+  border: 1px solid rgba(197, 115, 230, 0.883) !important;
+}
+.certificate-icon-images {
+  padding: 10px !important;
+  line-height: 1.6 !important;
+}

@@ -28,15 +28,22 @@ Graduated with a Master of Computer Science degree from Georgia State University
 <p style={{ textAlign: "justify", fontSize:15}}/>
 Earned a Bachelor of Computer Science degree from GITAM University with an outstanding GPA of 3.9, showcasing consistent academic achievements.
 
+
+<br/><br/>
+<h5 style={{ fontSize: "1.5em", paddingBottom: "1px" }}>
+                   I <strong className="purple">Volunteered</strong> in
+                 </h5>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Teaching Python in Georgia State University
             </li>
+            <br/>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> <strong className="purple">National Service Scheme</strong> by conducting blood donation camps, improving awareness in citizens about cancers, cleanliness and environment.
             </li>
+            <br/>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> <strong className="purple">Computer Society of India</strong> by conducting tech fests impacting over 3000 undergraduate students.
             </li>
           </ul>
 <br/>

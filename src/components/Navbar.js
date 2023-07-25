@@ -9,6 +9,7 @@ import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
 import pdf from "../Assets/Sai_Kowshik_SE1.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
+import { PiCertificateFill } from "react-icons/pi"
 import {
   AiFillStar,
   AiOutlineHome,
@@ -87,6 +88,18 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link
+                            as={Link}
+                            to="/certificates"
+                            onClick={() => updateExpanded(false)}
+                          >
+                            <PiCertificateFill
+                              style={{ marginBottom: "2px" }}
+                            />{" "}
+                            Certifications
+                          </Nav.Link>
+                        </Nav.Item>
             <Nav.Item className="fork-btn">
           <Button
             variant="primary"

@@ -9,7 +9,7 @@ import {
   SiJson,
   SiMysql,
   SiJira,
-  SiApacheairflow,
+  SiJunit5,
   SiAndroid
 } from "react-icons/si";
 
@@ -50,6 +50,10 @@ return (
         <Col xs={4} md={2} className="tech-icons">
             <SiJira />
             <h4>Jira</h4>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiJunit5 />
+            <h4>JUnits</h4>
         </Col>
 
     </Row>);
