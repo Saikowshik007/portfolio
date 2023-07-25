@@ -287,7 +287,7 @@ button:focus {
 .Typewriter__wrapper {
   font-size: 2.2em !important;
   color: #be6adf !important;
-  font-weight: 600 !important;
+  font-weight: 400 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
@@ -828,4 +828,24 @@ button:focus {
 
 .contact-mf {
   margin-top: 4rem;
+}
+
+.cursorSize {
+  font-size: 20px;/*Setting this to a ridiculous size as an example*/
+  color: purple;
+  animation: typing 5ms steps(40, end), blink-caret 0.75s step-end infinite; /* Adjust the animation speed here (50ms) */
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #000;
+  }
 }
