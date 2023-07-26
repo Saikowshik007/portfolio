@@ -18,6 +18,7 @@ import android  from "../../Assets/Certificates/anroid.jpg"
 import python  from "../../Assets/Certificates/python.jpg"
 import social  from "../../Assets/Certificates/social.jpg"
 import research  from "../../Assets/Certificates/research.jpg"
+import cloud  from "../../Assets/Certificates/cloud.jpg"
 
 import problem_solving_intermediate  from "../../Assets/Certificates/problem_solving_intermediate.jpg"
 
@@ -62,6 +63,9 @@ function Certificates() {
          </Col>
       <Col xs={4} md={2} className="certificate-icons">
          <img src={cpp} alt="about" className="img-fluid"  />
+         </Col>
+      <Col xs={4} md={2} className="certificate-icons">
+         <img src={cloud} alt="about" className="img-fluid"  />
          </Col>
   </Row>
 
