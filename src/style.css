@@ -880,3 +880,63 @@ button:focus {
   padding: 10px !important;
   line-height: 1.6 !important;
 }
+.cards {
+  perspective: 1500px;
+  transform-style: preserve-3d;
+  position: relative;
+  margin: auto;
+}
+
+.card-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: black; /* Change to desired background color */
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  transition: all 0.5s ease;
+  transform: rotateY(-1deg) rotateX(-1deg);
+  border: 3px solid #800080; /* Border color set to purple */
+  box-shadow: 0 0 10px #800080, /* inner shadow */
+              0 0 20px #800080, /* middle shadow */
+              0 0 30px #800080, /* outer shadow */
+              0 0 45px #800080, /* glow effect */
+              0 0 55px #800080; /* glow effect */
+  transform: rotateY(1deg) rotateX(1deg);
+}
+
+.content-card {
+  font-size: 20px; /* Increased the size */
+  line-height: 1.6; /* Adjusted the line height */
+  color: #FFFFE0; /* Text color set to light yellow */
+  padding:20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  font-family: Arial, sans-serif; /* Using Arial font here, but you can use any other font */
+  font-weight: bold; /* Made the text bold */
+}
+
+.button {
+  display: inline-block;
+  border-radius: 50px;
+  padding: 8px 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  color: #FFFFFF;
+  background-color: #800080;
+  border: double 2px transparent;
+  box-shadow: 0px 10px 30px -8px #800080;
+}
+
+.button:hover {
+  background-color: transparent;
+  border-color: #800080;
+}
