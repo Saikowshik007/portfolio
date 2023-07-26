@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row , Container} from "react-bootstrap";
+import { GiBeaver } from "react-icons/gi"
 import {
   SiGamedeveloper,
   SiDocker,
@@ -10,7 +11,9 @@ import {
   SiMysql,
   SiJira,
   SiJunit5,
-  SiAndroid
+  SiAndroid,
+  SiPostman,
+  SiIntellijidea
 } from "react-icons/si";
 
 import {
@@ -32,24 +35,16 @@ return (
             <h4>AWS</h4>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-            <SiJenkins />
-            <h4>Jenkins</h4>
+            <SiIntellijidea />
+            <h4>Intellij</h4>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-            <SiGradle />
-            <h4>Gradle</h4>
+            <GiBeaver />
+            <h4>DBeaver</h4>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-            <SiJson />
-            <h4>Json</h4>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <SiMysql />
-            <h4>Mysql</h4>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <SiJira />
-            <h4>Jira</h4>
+            <SiPostman />
+            <h4>Postman</h4>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
             <SiJunit5 />
