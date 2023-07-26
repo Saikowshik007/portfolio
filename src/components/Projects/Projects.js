@@ -97,7 +97,7 @@ function Projects() {
               title="Location based blood donor search App"
               description="The main idea is to help people who requires blood in panic situations without doing unnecessary steps. First the user will register in the app and then he will find people who are donors in his locality based on their blood groups. The data of the app is planned to store in firebase and retrieved from it during starting of the app.
                            A location service is provided which checks periodically current location of the user to suggest the donors. Threads are used to fetch location and data to omit the freeze of UI. Validations are performed using regex. A recycler view Is used to show the fetched data from database in a list view format. "
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              ghLink="https://github.com/Saikowshik007/Blood_donar_search_app"
 //              demoLink ="https://youtu.be/BbRpgDzgcj0"
             />
           </Col>
@@ -110,7 +110,7 @@ function Projects() {
               description="Face recognition system collects distinct features of the face and converts them into mathematical data, and then it compares with existing trained data in a vast database. When the data is significantly less, the process of learning good features for machine learning becomes computationally expensive and difficult.
                            We have tried to incorporate a facial recognition system that uses a one-shot metric approach to generalize unrecognized categories without large datasets. Unlike other commonly used neural network architectures, which only learn to classify input using the classification loss functions, then the model learns to differentiate between the two inputs.
                             In this work, We use Siamese architecture, a one-shot learning algorithm, i.e. it can learn to recognize any face using just a single training sample."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              ghLink="https://github.com/Saikowshik007/Face-Recognizer"
               demoLink="https://github.com/Saikowshik007/Face-Recognizer/blob/main/final%20ppt.pptx"
             />
           </Col>
