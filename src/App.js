@@ -9,7 +9,7 @@ import Resume from "./components/Resume/ResumeNew";
 import Techstack from "./components/About/Techstack"
 import Certificates from "./components/Certificates/Cerificates"
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Routes,
   Navigate
