@@ -36,12 +36,10 @@ class Stack extends React.Component {
       <div>
         <TinderLikeCard
             images={arr}
-            width="700"
-            height="500"
+            height="600"
             direction={this.state.directionTinder}
             duration={400}
             ref={(node) => this.Tinder = node}
-            className="cards"
         >
             { arr.map( (i,index) =>
             <div key={index} className="card-container">
@@ -51,7 +49,7 @@ class Stack extends React.Component {
 
             )}
         </TinderLikeCard>
-        <br/><br/>
+        <br/><br/><br/><br/>
         <button class="button button-a button-big button-rouded" onClick={this.onTinderSwipe.bind(this)}>Next Achievement </button>
 
       </div>

@@ -7,9 +7,8 @@ import Stack from "./stack"
 function AboutCard() {
   return (
     <Card className="quote-card-view">
-
       <Card.Body>
-      <Stack/>
+
       <br/><br/>
         <blockquote className="blockquote mb-1">
 <h5 style={{ fontSize: "1.5em", paddingBottom: "1px" }}>

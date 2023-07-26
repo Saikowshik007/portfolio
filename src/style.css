@@ -880,13 +880,6 @@ button:focus {
   padding: 10px !important;
   line-height: 1.6 !important;
 }
-.cards {
-  perspective: 1500px;
-  transform-style: preserve-3d;
-  position: relative;
-  margin: auto;
-}
-
 .card-container {
   position: relative;
   height: 100%;
@@ -894,17 +887,18 @@ button:focus {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   background-color: black; /* Change to desired background color */
-  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.3);
   overflow: hidden;
   transition: all 0.5s ease;
   transform: rotateY(-1deg) rotateX(-1deg);
-  border: 3px solid #800080; /* Border color set to purple */
-  box-shadow: 0 0 10px #800080, /* inner shadow */
-              0 0 20px #800080, /* middle shadow */
-              0 0 30px #800080, /* outer shadow */
-              0 0 45px #800080, /* glow effect */
-              0 0 55px #800080; /* glow effect */
+  border: 3px solid #c770f0; /* Border color set to purple */
+  box-shadow: 0 0 10px #c770f0, /* inner shadow */
+              0 0 12px #800080, /* middle shadow */
+              0 0 14px #800080, /* outer shadow */
+              0 0 15px #800080, /* glow effect */
+              0 0 16px #800080; /* glow effect */
   transform: rotateY(1deg) rotateX(1deg);
+
 }
 
 .content-card {
@@ -919,7 +913,31 @@ button:focus {
   text-align: center;
   font-family: Arial, sans-serif; /* Using Arial font here, but you can use any other font */
   font-weight: bold; /* Made the text bold */
+  
 }
+.content-card:hover {
+  background-color: transparent;
+  border-color: #800080;
+}
+
+
+@media (max-width: 400px) {
+  .card-container {
+    margin: auto !important;
+  }
+  .content-card {
+      margin: auto !important;
+    }
+
+}
+.achieve-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: transparent;
+  color: white !important;
+}
+
 
 .button {
   display: inline-block;
@@ -938,5 +956,8 @@ button:focus {
 
 .button:hover {
   background-color: transparent;
-  border-color: #800080;
+  border-color: #c770f0;
+}
+.white {
+  color: white !important;
 }
