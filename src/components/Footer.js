@@ -12,7 +12,7 @@ function Footer() {
   let year = date.getFullYear();
   return (
     <Container fluid className="footer">
-<h3>Designed and Developed using React.js, AWS EC2 Instance, JavaScript, HTML and CSS ❤️ 🧡 💜</h3>
+<h3>Driven software engineer ready to innovate and elevate your team. Contact me to discuss potential opportunities. </h3>
     </Container>
   );
 }
