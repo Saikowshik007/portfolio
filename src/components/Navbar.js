@@ -7,7 +7,7 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
-import pdf from "../Assets/Sai_Kowshik_SE1.pdf";
+import pdf from "../Assets/Sai_Kowshik_Ananthula.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { PiCertificateFill } from "react-icons/pi"
 import {
