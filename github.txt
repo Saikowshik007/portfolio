@@ -1,1 +1,3 @@
 git push -f origin master:gh-pages
+
+npm run deploy
